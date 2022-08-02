@@ -10,6 +10,8 @@ import SwiftUI
 
 struct PhotoView: View {
     var body: some View {
+        
+        //　グリッドのリストにする
 
         ZStack(alignment: .top){
         ScrollView {

@@ -15,7 +15,7 @@ struct TalkAppApp: App {
             // MypageView()
             
             // else 一度も登録していない場合
-            
+                        
             TK0001F()
         }
     }

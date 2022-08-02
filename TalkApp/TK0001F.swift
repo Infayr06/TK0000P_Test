@@ -12,6 +12,7 @@ struct TK0001F: View {
         NavigationView{
         ZStack{
             VStack(){
+                Text("Gitテスト")
                 Text("アプリ名")
                     .foregroundColor(Color.headerColor)
                     .font(.system(size: 50,weight: .bold,design: .default))
