@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB2A7B4B2831E22C007E17B6 /* TK1010F.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2A7B4A2831E22C007E17B6 /* TK1010F.swift */; };
+		AB433DDB283C6904003A63B1 /* CodePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB433DDA283C6904003A63B1 /* CodePickerView.swift */; };
+		AB433DDD283C758D003A63B1 /* CodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB433DDC283C758D003A63B1 /* CodeView.swift */; };
+		AB4753C62890BCEE002A8547 /* TK7010F.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4753C52890BCEE002A8547 /* TK7010F.swift */; };
+		AB4A0C222837320D00931C1D /* TalkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4A0C212837320D00931C1D /* TalkApp.swift */; };
+		AB4A0C2A283786A400931C1D /* OptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4A0C29283786A400931C1D /* OptionViewController.swift */; };
+		AB53F980288A80C300CE1DCB /* TK0001F.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB53F97F288A80C300CE1DCB /* TK0001F.swift */; };
+		AB53F984288E156000CE1DCB /* TK7050F.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB53F983288E156000CE1DCB /* TK7050F.swift */; };
+		AB69B3E22831EAA200C9603A /* TK7030F.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB69B3E12831EAA200C9603A /* TK7030F.swift */; };
+		AB69B3F12832193F00C9603A /* TK7040F.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB69B3F02832193F00C9603A /* TK7040F.swift */; };
+		AB69B3F32832195100C9603A /* TK7021F.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB69B3F22832195100C9603A /* TK7021F.swift */; };
+		AB69B3F52832196800C9603A /* TK7020F.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB69B3F42832196800C9603A /* TK7020F.swift */; };
+		AB7B7054283DFE3E004C046B /* ScannerViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7B7053283DFE3E004C046B /* ScannerViewModal.swift */; };
+		AB7B7056283DFE69004C046B /* QrCodeCameraDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7B7055283DFE69004C046B /* QrCodeCameraDelegate.swift */; };
+		AB7B7058283DFE9E004C046B /* CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7B7057283DFE9E004C046B /* CameraPreview.swift */; };
+		AB7B705A283DFEBD004C046B /* QrCodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7B7059283DFEBD004C046B /* QrCodeScannerView.swift */; };
+		AB7B705C283E0265004C046B /* GroupJoinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7B705B283E0265004C046B /* GroupJoinView.swift */; };
+		AB7F15E0283B70CD000BA978 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7F15DF283B70CD000BA978 /* ImagePicker.swift */; };
+		AB808205282C91B100808C6A /* TK9010F.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB808204282C91B100808C6A /* TK9010F.swift */; };
+		AB808207282C91B200808C6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB808206282C91B200808C6A /* Assets.xcassets */; };
+		AB80820A282C91B200808C6A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB808209282C91B200808C6A /* Preview Assets.xcassets */; };
+		AB84CF0E283F501E007404B3 /* TK2011F.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB84CF0D283F501E007404B3 /* TK2011F.swift */; };
+		AB84CF12283F5087007404B3 /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB84CF11283F5087007404B3 /* QRCode.swift */; };
+		ABC78A3D283B4DFB00EDB818 /* ImageChooseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC78A3C283B4DFB00EDB818 /* ImageChooseView.swift */; };
+		ABE7812328321E7B001B9F99 /* TK2010F.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE7812228321E7B001B9F99 /* TK2010F.swift */; };
+		ABFDC63B28360FC600170DD7 /* TK7022F.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFDC63A28360FC600170DD7 /* TK7022F.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB2A7B4A2831E22C007E17B6 /* TK1010F.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TK1010F.swift; sourceTree = "<group>"; };
+		AB433DDA283C6904003A63B1 /* CodePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodePickerView.swift; sourceTree = "<group>"; };
+		AB433DDC283C758D003A63B1 /* CodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeView.swift; sourceTree = "<group>"; };
+		AB4753C52890BCEE002A8547 /* TK7010F.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TK7010F.swift; sourceTree = "<group>"; };
+		AB4A0C212837320D00931C1D /* TalkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkApp.swift; sourceTree = "<group>"; };
+		AB4A0C29283786A400931C1D /* OptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionViewController.swift; sourceTree = "<group>"; };
+		AB53F97F288A80C300CE1DCB /* TK0001F.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TK0001F.swift; sourceTree = "<group>"; };
+		AB53F983288E156000CE1DCB /* TK7050F.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TK7050F.swift; sourceTree = "<group>"; };
+		AB69B3E12831EAA200C9603A /* TK7030F.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TK7030F.swift; sourceTree = "<group>"; };
+		AB69B3F02832193F00C9603A /* TK7040F.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TK7040F.swift; sourceTree = "<group>"; };
+		AB69B3F22832195100C9603A /* TK7021F.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TK7021F.swift; sourceTree = "<group>"; };
+		AB69B3F42832196800C9603A /* TK7020F.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TK7020F.swift; sourceTree = "<group>"; };
+		AB7B7053283DFE3E004C046B /* ScannerViewModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewModal.swift; sourceTree = "<group>"; };
+		AB7B7055283DFE69004C046B /* QrCodeCameraDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrCodeCameraDelegate.swift; sourceTree = "<group>"; };
+		AB7B7057283DFE9E004C046B /* CameraPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreview.swift; sourceTree = "<group>"; };
+		AB7B7059283DFEBD004C046B /* QrCodeScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrCodeScannerView.swift; sourceTree = "<group>"; };
+		AB7B705B283E0265004C046B /* GroupJoinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupJoinView.swift; sourceTree = "<group>"; };
+		AB7F15DF283B70CD000BA978 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		AB8081FF282C91B100808C6A /* TalkApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TalkApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB808204282C91B100808C6A /* TK9010F.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TK9010F.swift; sourceTree = "<group>"; };
+		AB808206282C91B200808C6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB808209282C91B200808C6A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AB84CF0D283F501E007404B3 /* TK2011F.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TK2011F.swift; sourceTree = "<group>"; };
+		AB84CF11283F5087007404B3 /* QRCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCode.swift; sourceTree = "<group>"; };
+		ABC78A3C283B4DFB00EDB818 /* ImageChooseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageChooseView.swift; sourceTree = "<group>"; };
+		ABE7812228321E7B001B9F99 /* TK2010F.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TK2010F.swift; sourceTree = "<group>"; };
+		ABFDC63A28360FC600170DD7 /* TK7022F.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TK7022F.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB8081FC282C91B100808C6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB433DDF283C769E003A63B1 /* Talk */ = {
+			isa = PBXGroup;
+			children = (
+				ABE7812228321E7B001B9F99 /* TK2010F.swift */,
+				AB84CF0D283F501E007404B3 /* TK2011F.swift */,
+				AB69B3F42832196800C9603A /* TK7020F.swift */,
+				AB69B3F22832195100C9603A /* TK7021F.swift */,
+				ABFDC63A28360FC600170DD7 /* TK7022F.swift */,
+				AB4A0C29283786A400931C1D /* OptionViewController.swift */,
+				AB69B3F02832193F00C9603A /* TK7040F.swift */,
+			);
+			path = Talk;
+			sourceTree = "<group>";
+		};
+		AB433DE0283C7AF7003A63B1 /* QRcode */ = {
+			isa = PBXGroup;
+			children = (
+				AB7B7052283DFE09004C046B /* CodeReader */,
+				AB433DDA283C6904003A63B1 /* CodePickerView.swift */,
+				AB84CF11283F5087007404B3 /* QRCode.swift */,
+				AB7B705B283E0265004C046B /* GroupJoinView.swift */,
+			);
+			path = QRcode;
+			sourceTree = "<group>";
+		};
+		AB433DE1283C7B24003A63B1 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				AB7F15DF283B70CD000BA978 /* ImagePicker.swift */,
+				ABC78A3C283B4DFB00EDB818 /* ImageChooseView.swift */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		AB7B7052283DFE09004C046B /* CodeReader */ = {
+			isa = PBXGroup;
+			children = (
+				AB433DDC283C758D003A63B1 /* CodeView.swift */,
+				AB7B7053283DFE3E004C046B /* ScannerViewModal.swift */,
+				AB7B7055283DFE69004C046B /* QrCodeCameraDelegate.swift */,
+				AB7B7057283DFE9E004C046B /* CameraPreview.swift */,
+				AB7B7059283DFEBD004C046B /* QrCodeScannerView.swift */,
+			);
+			path = CodeReader;
+			sourceTree = "<group>";
+		};
+		AB8081F6282C91B000808C6A = {
+			isa = PBXGroup;
+			children = (
+				AB808201282C91B100808C6A /* TalkApp */,
+				AB808200282C91B100808C6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB808200282C91B100808C6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB8081FF282C91B100808C6A /* TalkApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB808201282C91B100808C6A /* TalkApp */ = {
+			isa = PBXGroup;
+			children = (
+				AB4A0C212837320D00931C1D /* TalkApp.swift */,
+				AB53F97F288A80C300CE1DCB /* TK0001F.swift */,
+				AB2A7B4A2831E22C007E17B6 /* TK1010F.swift */,
+				AB433DDF283C769E003A63B1 /* Talk */,
+				AB4753C52890BCEE002A8547 /* TK7010F.swift */,
+				AB69B3E12831EAA200C9603A /* TK7030F.swift */,
+				AB53F983288E156000CE1DCB /* TK7050F.swift */,
+				AB808204282C91B100808C6A /* TK9010F.swift */,
+				AB433DE0283C7AF7003A63B1 /* QRcode */,
+				AB433DE1283C7B24003A63B1 /* Image */,
+				AB808206282C91B200808C6A /* Assets.xcassets */,
+				AB808208282C91B200808C6A /* Preview Content */,
+			);
+			path = TalkApp;
+			sourceTree = "<group>";
+		};
+		AB808208282C91B200808C6A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AB808209282C91B200808C6A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB8081FE282C91B100808C6A /* TalkApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB80820D282C91B200808C6A /* Build configuration list for PBXNativeTarget "TalkApp" */;
+			buildPhases = (
+				AB8081FB282C91B100808C6A /* Sources */,
+				AB8081FC282C91B100808C6A /* Frameworks */,
+				AB8081FD282C91B100808C6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TalkApp;
+			productName = TalkApp;
+			productReference = AB8081FF282C91B100808C6A /* TalkApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB8081F7282C91B000808C6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					AB8081FE282C91B100808C6A = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = AB8081FA282C91B000808C6A /* Build configuration list for PBXProject "TalkApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB8081F6282C91B000808C6A;
+			productRefGroup = AB808200282C91B100808C6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB8081FE282C91B100808C6A /* TalkApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB8081FD282C91B100808C6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB80820A282C91B200808C6A /* Preview Assets.xcassets in Resources */,
+				AB808207282C91B200808C6A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB8081FB282C91B100808C6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB7B705A283DFEBD004C046B /* QrCodeScannerView.swift in Sources */,
+				AB84CF0E283F501E007404B3 /* TK2011F.swift in Sources */,
+				AB69B3F12832193F00C9603A /* TK7040F.swift in Sources */,
+				ABC78A3D283B4DFB00EDB818 /* ImageChooseView.swift in Sources */,
+				AB84CF12283F5087007404B3 /* QRCode.swift in Sources */,
+				AB53F980288A80C300CE1DCB /* TK0001F.swift in Sources */,
+				AB69B3F32832195100C9603A /* TK7021F.swift in Sources */,
+				AB7B7058283DFE9E004C046B /* CameraPreview.swift in Sources */,
+				ABFDC63B28360FC600170DD7 /* TK7022F.swift in Sources */,
+				AB808205282C91B100808C6A /* TK9010F.swift in Sources */,
+				AB2A7B4B2831E22C007E17B6 /* TK1010F.swift in Sources */,
+				AB69B3F52832196800C9603A /* TK7020F.swift in Sources */,
+				ABE7812328321E7B001B9F99 /* TK2010F.swift in Sources */,
+				AB4A0C2A283786A400931C1D /* OptionViewController.swift in Sources */,
+				AB433DDD283C758D003A63B1 /* CodeView.swift in Sources */,
+				AB7B7056283DFE69004C046B /* QrCodeCameraDelegate.swift in Sources */,
+				AB53F984288E156000CE1DCB /* TK7050F.swift in Sources */,
+				AB7F15E0283B70CD000BA978 /* ImagePicker.swift in Sources */,
+				AB4A0C222837320D00931C1D /* TalkApp.swift in Sources */,
+				AB4753C62890BCEE002A8547 /* TK7010F.swift in Sources */,
+				AB69B3E22831EAA200C9603A /* TK7030F.swift in Sources */,
+				AB433DDB283C6904003A63B1 /* CodePickerView.swift in Sources */,
+				AB7B705C283E0265004C046B /* GroupJoinView.swift in Sources */,
+				AB7B7054283DFE3E004C046B /* ScannerViewModal.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AB80820B282C91B200808C6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB80820C282C91B200808C6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB80820E282C91B200808C6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TalkApp/Preview Content\"";
+				DEVELOPMENT_TEAM = XZ76S2B57C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "カメラのアクセスを許可しますか？";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cc.infas.kitamuraA.TalkApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB80820F282C91B200808C6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TalkApp/Preview Content\"";
+				DEVELOPMENT_TEAM = XZ76S2B57C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "カメラのアクセスを許可しますか？";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cc.infas.kitamuraA.TalkApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB8081FA282C91B000808C6A /* Build configuration list for PBXProject "TalkApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB80820B282C91B200808C6A /* Debug */,
+				AB80820C282C91B200808C6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB80820D282C91B200808C6A /* Build configuration list for PBXNativeTarget "TalkApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB80820E282C91B200808C6A /* Debug */,
+				AB80820F282C91B200808C6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB8081F7282C91B000808C6A /* Project object */;
+}
